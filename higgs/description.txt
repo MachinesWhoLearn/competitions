@@ -1,5 +1,7 @@
 Higgs Boson Classification Challenge
 
+THE THEME OF THIS COMPETITION IS "TREES". Predictors that do not use trees as an essential structure in their predictive model will not be considered. (i.e., please don't train a convolutional neural net just yet).
+
 It took scientists 40 years and billions of dollars to detect the Higgs Boson. We're going to do it with about 70% accuracy over two weeks. No domain knowledge is necessary to do relatively well in this challenge.
 
 See the link to the original dataset below for everything you need to know about the data itself. There is a small aesthetic change to the dataset. The labels have been adjusted so that -1 is background and 1 is signal.
