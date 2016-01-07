@@ -1,0 +1,54 @@
+Higgs Boson Classification Challenge
+
+It took scientists 40 years and billions of dollars to detect the Higgs Boson. We're going to do it with about 70% accuracy over two weeks. No domain knowledge is necessary to do relatively well in this challenge.
+
+See the link to the original dataset below for everything you need to know about the data itself. There is a small aesthetic change to the dataset. The labels have been adjusted so that -1 is background and 1 is signal.
+
+trainData.csv is in the following format:
+
+"","V1","V2","V3",...,"V29"
+"Id_1",V1_1,V2_1,V3_1,...,V29_1
+"Id_2",V1_2, V2_2,...,V29_2 
+...
+
+This is a standard csv format that you'll see again and again.
+
+To read the data into R, simply change to the correct working directory and call:
+
+trainData <- read.csv("trainData.csv")
+trainData$V1 <- factor(trainData$V1) # Since we're doing classification
+
+In Python, working with Pandas:
+
+import pandas as pd
+train_data = pd.DataFrame.from_csv('trainData.csv')
+
+See python_example.ipynb for some simple starter code.
+
+An unlabled test set will be released a few days before the competition deadline. Please submit your results in a file named lastname_firstname_higgs.dat in the following format:
+
+(estimated prediction error)
+y_hat1
+y_hat2
+....
+
+For example, if I (Phil Snyder) think my prediction error on the test set will be 0.33, and the classes of the first 3 data points are 1, 1, -1, then I will save the output:
+
+0.33
+1
+1
+-1
+....
+
+in the file snyder_phil_higgs.dat
+
+In the interest of fairness, please do not train your model on any of the data points from the original dataset that are not in the training data provided here :-)
+
+Original dataset: 
+http://archive.ics.uci.edu/ml/datasets/HIGGS#
+
+Related Papers: 
+Baldi, P., P. Sadowski, and D. Whiteson. “Searching for Exotic Particles in High-energy Physics with Deep Learning.” Nature Communications 5 (December 30, 2015)
+
+Other:
+https://www.kaggle.com/c/higgs-boson
