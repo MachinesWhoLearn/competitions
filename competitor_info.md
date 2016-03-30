@@ -45,7 +45,7 @@ DON'T FORGET TO STOP OR TERMINATE YOUR INSTANCE AFTER YOU ARE DONE USING IT.
 
 Amazon charges by the hour, so a g2.2xlarge instance forgotten for a day will cost 24 * $0.6 = $14.40 and one forgotten for a week or two will just about deplete all our money for the year. I typically use instances for 1-2 hours at a time, and expect the same typical usage pattern from others. Things that you can do offline, such as writing code, should be done before you start up an instance. If you're ever in doubt about how to use EC2 or AWS, let us know! 
 
-If this talk about wasting all the club's money scares you, don't worry! AWS has a free tier, that allows us to rent t2.micro instances for free, up to 750 hours a month. These instances only have 2 cores and 1 GB of ram, so they're not much help for training big models, but they're great for learning.
+If this talk about wasting all the club's money scares you, don't worry! AWS has a free tier, that allows us to rent t2.micro instances for free, up to 750 hours a month. These instances only have 2 cores and 1 GB of ram, so they're not much help for training big models, but they're great for learning (no pun intended).
 
 ## Conclusion
 
