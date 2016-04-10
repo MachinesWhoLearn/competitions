@@ -1,13 +1,22 @@
 """
 Kaggle - Shelter Animal Outcomes
-Neural Network example using Keras
+Neural network example using Keras
 
 To run on GPU:
 THEANO_FLAGS=mode=FAST_RUN,device=gpu,floatX=float32 python2 neural_network.py
 
 Author: Cosmo Harrigan
 
-This is a neural network model that only uses these 4 features as input: animal type, gender, age, hour. Breed, color and name are completely disregarded (but would likely improve the score if added to the model in an appropriate way). The animal type and gender are categorical features and are converted into binary indicator variables, and the age and hour are real-valued features and are centered and scaled to unit variance. The neural network employs batch normalization and dropout regularization. The training proceeds until validation loss stops improving (early stopping), and then a checkpoint of the model with the best validation loss is used for prediction.
+This is a neural network model that only uses these 4 features as input: 
+animal type, gender, age, hour. Breed, color and name are completely 
+disregarded (but would likely improve the score if added to the model in 
+an appropriate way). The animal type and gender are categorical features
+and are converted into binary indicator variables, and the age and hour 
+are real-valued features and are centered and scaled to unit variance. 
+The neural network employs batch normalization and dropout regularization.
+The training proceeds until validation loss stops improving (early stopping),
+and then a checkpoint of the model with the best validation loss is used for
+prediction.
 """
 
 import pandas as pd
