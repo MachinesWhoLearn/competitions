@@ -1,6 +1,7 @@
 Breed,BreedGroup
 Azawakh,hound
 Fox Terrier,terrier
+Smooth Fox Terrier,terrier
 Kromfohrlander,terrier
 Clumber Spaniel,sport
 Grand Bleu de Gascogne,hound
@@ -13,8 +14,11 @@ Cane Corso,working
 Norwegian Buhund,working
 Coton De Tulear,toy
 Wirehaired Vizsla,sport
+Wire Hair Fox Terrier,terrier
 American Pit Bull Terrier,terrier
+Pit Bull,terrier
 Rhodesian Ridgeback,hound
+Rhod Ridgeback,hound
 Schnauzer,working
 Lakeland Terrier,terrier
 Bouvier Des Flandres,working
@@ -33,7 +37,7 @@ Shiba Inu,nonsport
 Pyrenean Mastiff,working
 Airedale Terrier,terrier
 Small MÃ¼nsterlÃ¤nder,sport
-Weimaraner,sport
+,sport
 Shetland Sheepdog,working
 Treeing Feist,terrier
 Jack Russell Terrier,terrier
@@ -51,17 +55,21 @@ Australian Stumpy Tail Cattle Dog,working
 Drentsche Patrijshond,sport
 Andalusian Hound,hound
 Doberman Pinscher,working
+Doberman Pinsch,work
 Dalmatian,nonsport
 Redbone Coonhound,hound
+Redbone Hound,hound
 Puli,working
 Borzoi,hound
 Chesapeake Bay Retriever,sport
+Chesa Bay Retriever,sport
 Affenpinscher,toy
 Maremma Sheepdog,working
 Braque du Bourbonnais,sport
 Border Collie,working
 German Pinscher,terrier
 German Shepherd Dog,working
+German Shepherd,working
 Black Russian Terrier,working
 Labrador Retriever,sport
 Lagotto Romagnolo,sport
@@ -71,28 +79,38 @@ Irish Terrier,terrier
 Keeshond,nonsport
 Dogue de Bordeaux,working
 Collie,herding
+Collie Smooth,herding
+Collie Rough,herding
 Sussex Spaniel,sport
 Swedish Lapphund,working
 Bichon Frise,nonsport
 Anatolian Shepherd,working
+Anatol Shepherd,working
 Cairn Terrier,terrier
 Karelian Bear Dog,working
 Shih-Tzu,toy
+Shih Tzu,toy
 Pomeranian,toy
 Bulldog,nonsport
+American Bulldog,nonsport
+English Bulldog,nonsport
 Berger Picard,herding
 Rat Terrier,terrier
 St. Bernard,working
+St. Bernard Smooth Coat,working
+St. Bernard Rough Coat,working
 Wirehaired Pointing Griffon,sport
 Boxer,working
 Podenco Canario,hound
 Spanish Water Dog,sport
 Petit Basset Griffon VendÃ©en,hound
+Pbgv,hound
 Basset Bleu de Gascogne,hound
 Bloodhound,hound
 German Longhaired Pointer,sport
 Australian Kelpie,working
 Cavalier King Charles Spaniel,toy
+Cavalier Span,toy
 Japanese Chin,toy
 Pembroke Welsh Corgi,herding
 Polish Lowland Sheepdog,working
@@ -100,7 +118,9 @@ Chinook,working
 Harrier,hound
 Miniature Pinscher,toy
 American Eskimo Dog,nonsport
+American Eskimo,nonsport
 German Shorthaired Pointer,sport
+German Shorthair Pointer,sport
 Afghan Hound,hound
 Lhasa Apso,nonsport
 Large MÃ¼nsterlÃ¤nder,sport
@@ -116,6 +136,7 @@ Coton de Tulear,nonsport
 Sporting Lucas Terrier,terrier
 German Wirehaired Pointer,sport
 Alaskan Malamute,working
+Alaskan Husky,working
 Dogue De Bordeaux,working
 Glen of Imaal Terrier,terrier
 Teddy Roosevelt Terrier,terrier
@@ -131,6 +152,7 @@ Yorkshire Terrier,toy
 Cesky Fousek,sport
 Basset Hound,hound
 Great Dane,working
+Dogo Argentino,working
 Cardigan Welsh Corgi,herding
 Sloughi,hound
 Andalusian Hound Maneto,hound
@@ -157,7 +179,9 @@ Havanese,toy
 Spinone Italiano,sport
 English Cocker Spaniel,sport
 English Setter,sport
+Catahoula,hound
 Australian Cattle Dog,working
+Queensland Heeler,working
 Boykin Spaniel,sport
 American English Coonhound,hound
 Swedish Vallhund,working
@@ -173,6 +197,9 @@ Pekingese,toy
 Samoyed,working
 Greater Swiss Mountain Dog,working
 Poodle,nonsport
+Standard Poodle,nonsport
+Toy Poodle,toy
+Miniature Poodle,nonsport
 Hungarian Puli,working
 Soft Coated Wheaten Terrier,terrier
 Vizsla,sport
@@ -182,9 +209,11 @@ Miniature Bull Terrier,terrier
 Belgian Tervuren,herding
 Portuguese Podengo,hound
 Kerry Blue Terrier,terrier
+Blue Lacy,working
 Manchester Terrier,terrier
 Russian Black Terrier,working
 Staffordshire Bull Terrier,terrier
+Staffordshire,terrier
 Bouvier des Flandres,herding
 Sealyham Terrier,terrier
 Kooikerhondje,sport
@@ -196,14 +225,20 @@ Norfolk Terrier,terrier
 Newfoundland,working
 American Foxhound,hound
 Flat-Coated Retriever,sport
+Flat Coat Retriever,sport
 Scottish Terrier,terrier
 Australian Terrier,terrier
 Briard,working
 Pointer,sport
 Dachshund,hound
+Dachshund Wirehair,hound
+Dachshund Longhair,hound
 Finnish Lapphund,working
 Chihuahua,toy
+Chihuahua Shorthair,toy
+Chihuahua Longhair,toy
 Miniature American Shepherd,herding
+Black Mouth Cur,working
 Curly Coated Retriever,sport
 Bavarian Mountain Hound,hound
 Bluetick Coonhound,hound
@@ -217,12 +252,13 @@ Italian Greyhound,toy
 Golden Retriever,sport
 Norrbottenspets,hound
 West Highland White Terrier,terrier
+West Highland Terrier,terrier
 German Hunting Terrier,terrier
 Chow Chow,nonsport
 American Hairless Terrier,terrier
 Irish Setter,sport
 Skye Terrier,terrier
-Giant Schnauzer,working
+Miniature Schnauzer,terrier
 Canadian Pointer,sport
 Akita,working
 Xoloitzcuintli,nonsport
@@ -235,12 +271,14 @@ Bracco Italiano,sport
 Hovawart,working
 Irish Red and White Setter,sport
 Chinese Shar-Pei,nonsport
+Chinese Sharpei,nonsport
 Cirneco dell'Etna,hound
 English foxhound,hound
 Bernese Mountain Dog,working
 Eurasier,working
 French Bulldog,nonsport
 Portuguese Pointer,sport
+English Pointer,sport
 White Swiss Shepherd,working
 Russell Terrier,terrier
 Siberian Husky,working
@@ -249,6 +287,8 @@ Mastiff,working
 Bull Terrier,terrier
 Chinese Crested,toy
 American Cocker Spaniel,sport
+Cocker Spaniel,sport
 Griffon Bruxellois,toy
+Bruss Griffin,toy
 Dobermann,working
 Ibizan Hound,hound
