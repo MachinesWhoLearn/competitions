@@ -19,15 +19,15 @@ Included in the repository is a Jupyter Notebook of one specific implementation/
 
 ### LeNet Learning Curve
 
-![lenet-learning](LeNet_learning_curve.png)
+![lenet-learning](learning_curves/LeNet_learning_curve.png)
 
 ### VGGNet Learning Curve
 
-![vgg-learning](VGGNet_learning_curve.png)
+![vgg-learning](learning_curves/VGGNet_learning_curve.png)
 
 ### All Convolutional Net Learning Curve
 
-![tac-learning](TACNet_learning_curve.png)
+![tac-learning](learning_curves/TACNet_learning_curve.png)
 
 But all of the convnets performed better than this in their respective papers! What went wrong?
 
